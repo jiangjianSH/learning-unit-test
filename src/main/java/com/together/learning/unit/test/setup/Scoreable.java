@@ -1,4 +1,4 @@
-package com.together.learning.unit.test.chap1;
+package com.together.learning.unit.test.setup;
 
 /**
  * @author jiangjian

@@ -1,4 +1,4 @@
-package com.together.learning.unit.test.chap1;
+package com.together.learning.unit.test.setup;
 
 import java.util.*;
 
@@ -13,6 +13,7 @@ public class ScoreCollection {
     }
     public int arithmeticMean() {
         int total = scores.stream().mapToInt(Scoreable::getScore).sum();
+        System.out.println(total);
         return total / scores.size();
     }
 }
